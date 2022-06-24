@@ -302,7 +302,7 @@ h1 {
 .features__container {
   padding: 80px 0;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
 }
 
 .features__text--1 {
@@ -345,6 +345,19 @@ h1 {
   width: calc(100% / 3);
   margin: 0 16px;
   padding: 32px 8px;
+}
+
+.features__service--description {
+  display: flex;
+  flex-direction: column;
+}
+
+.features__service--img {
+  border-width: 1px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 12px;
+  flex-shrink: 0;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES  */
