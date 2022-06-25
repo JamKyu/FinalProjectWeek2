@@ -360,6 +360,8 @@ h1 {
   flex-shrink: 0;
 }
 
+
+
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES  */
 
 @media (max-width: 768px) {
