@@ -89,6 +89,7 @@ img {
   font-size: 28px;
   color: #242424;
   transition: color 300ms ease;
+  cursor: pointer;
 }
 
 .logo__wrapper {
@@ -254,12 +255,22 @@ h1 {
   color: white;
   transition-duration: 300ms;
   z-index: 2;
+  border: none;
 }
 
 .btn__header:hover {
   background-color: #5813e2;
   text-decoration: none;
   color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  opacity: 0.85;
+  transform: translateY(1px);
 }
 
 .header__customers {
@@ -869,8 +880,11 @@ h1 {
   transition-duration: 300ms;
   margin-right: 16px;
   display: inline-block;
-  border-radius: 60px;
-  padding: 8px 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
   width: 36px;
 }
 
